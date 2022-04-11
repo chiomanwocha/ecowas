@@ -1,0 +1,51 @@
+h2 {
+    text-align: center;
+    padding: 3vh 3vw 3vw 3vh;
+}
+.header-about > p{
+    max-width: 50vw;
+    margin: auto;
+}
+.about-body{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.about-body nav{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+}
+.about-body nav div ul li a:hover {
+    border-bottom: 2px solid rgb(131, 34, 34);
+    padding-bottom: 3px;
+    color:#000;
+}
+.about-element{
+    max-width:1000px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+.who-we-are h4, .what-we-do h4, .our-history h4, .member-states h4 {
+    text-align: left;
+    font-weight: bold;
+}
+.our-services, .our-history ul{
+    line-height: 5px;
+}
+.member-states li{
+    display: block;
+    text-align: left;
+}
+.member-states li a{
+    font-size: 1rem;
+}
+.member-states li a:hover {
+    border-bottom: 0;
+}
+.member-states p a{
+    color:#000;
+    text-decoration: none;
+}
+.member-states p a:hover, .member-states ul li a:hover{
+    border-bottom: 1px solid rgb(131, 34, 34);
+}
